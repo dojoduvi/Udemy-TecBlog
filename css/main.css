@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #4e4e4e;
+  text-decoration: none;
+}
+.txtCenter {
+  text-align: center;
+}
+.negrito {
+  font-weight: bold;
+}
+body {
+  background-color: #e6e6e6;
+}
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  background-color: #f7b600;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  padding-bottom: 20px;
+}
+header span {
+  color: #fff;
+}
+nav li {
+  display: inline;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  font-weight: bold;
+  color: #fff;
+}
+nav a:hover {
+  background-color: #fff;
+  color: #4e4e4e;
+}
+.artigo {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.artigo h3 {
+  font-weight: bold;
+  color: #f7b600;
+}
+.artigo img {
+  width: 100%;
+  margin: 10px 0;
+}
+.artigo a {
+  text-decoration: none;
+  margin-left: 2px;
+  color: #4e4e4e;
+}
+.recentes,
+.categorias {
+  background-color: #fff;
+  padding: 10px;
+}
+.titulo {
+  background-color: #CCC;
+  padding: 4px;
+  font-weight: bold;
+}
+.recente a,
+.categorias a {
+  text-decoration: none;
+  margin-left: 2px;
+  color: #4e4e4e;
+  font-weight: bold;
+}
+.categorias {
+  margin-top: 15px;
+}
+.categorias li {
+  margin-left: -25px;
+  padding-top: 15px;
+}
+.categorias a {
+  color: #f7b600;
+}
